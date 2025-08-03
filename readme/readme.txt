@@ -1,6 +1,3 @@
-LICENSE
-The template is created by Inovatik and is offered for free use under the open source MIT license for any type and any number of projects.
-
 
 FILE STRUCTURE
 - index.html holds the entire content
