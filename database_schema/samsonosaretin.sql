@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 30, 2025 at 07:29 AM
+-- Generation Time: Sep 30, 2025 at 07:52 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,9 +40,15 @@ CREATE TABLE `tbl_reviews` (
 --
 
 INSERT INTO `tbl_reviews` (`id`, `rater_name`, `rating`, `comment`, `submitted_at`) VALUES
-(1, 'Matthew Jones', 5, 'Samson delivered exceptional full stack development, creating a clean, responsive, and scalable web application. His communication was clear, deadlines were met, and the results exceeded expectations. Highly recommended for any web development project.', '2025-07-18 22:09:44'),
-(2, 'Sarah Arjuns', 4, 'Samson was a pleasure to work with—skilled, reliable, and efficient. He built a seamless full stack solution that worked flawlessly across devices. I’d gladly work with him again and highly recommend his services.', '2025-07-18 22:11:07'),
-(3, 'Salome Chichi', 5, 'Samson did an outstanding job on our web project, handling both front-end and back-end tasks with expertise. His attention to detail and problem-solving skills made a big difference. Truly a top-tier developer!', '2025-07-18 22:12:40');
+(1, 'Matthew Jones', 5, 'Samson did a fantastic job on our website. The design is clean, responsive, and works smoothly on all devices. Communication was easy throughout the project and everything was delivered on time. Couldn’t be happier with the result.', '2025-07-18 21:09:44'),
+(2, 'Sarah Arjuns', 4, 'Working with Samson was a great experience. He’s skilled, professional, and very reliable. The final product turned out exactly how we wanted. Only minor tweaks were needed, but overall, I highly recommend him.', '2025-07-18 21:11:07'),
+(3, 'Salome Chichi', 5, 'Excellent work from start to finish. Samson handled both the front-end and back-end effortlessly and brought some really good ideas to the table. The project was delivered on time and exceeded our expectations.', '2025-07-18 21:12:40'),
+(4, 'Daniel Reed', 5, 'Really impressed with the work done here. Everything was built from scratch exactly how I pictured it. Fast, professional, and great communication throughout the process.', '2025-08-05 13:22:11'),
+(5, 'Aisha Karim', 4, 'Overall a very smooth experience. The app works well and any issues were quickly fixed. Would definitely work together again on future projects.', '2025-08-12 09:17:33'),
+(6, 'Leon Matthews', 5, 'Top-notch developer! The attention to detail and dedication to getting everything right was clear from day one. Highly recommended for anyone looking for a reliable full stack developer.', '2025-08-20 17:41:20'),
+(7, 'Clara Jennings', 3, 'The end result was good and functional, but communication could have been a bit faster at times. Still, the overall quality of work was solid and worth the investment.', '2025-08-25 11:55:44'),
+(8, 'Oliver Grant', 5, 'Super happy with the final product. Everything was well structured, easy to use, and exactly what our business needed. Would definitely hire again!', '2025-09-02 08:13:02'),
+(9, 'Isabella Moore', 4, 'Good experience overall. The website performs well and looks professional. A few small revisions were needed, but they were handled quickly and without any fuss.', '2025-09-10 15:28:59');
 
 -- --------------------------------------------------------
 
@@ -2893,12 +2899,6 @@ INSERT INTO `visitors` (`id`, `ip`, `country`, `region`, `city`, `postal`, `time
 --
 
 --
--- Indexes for table `tbl_reviews`
---
-ALTER TABLE `tbl_reviews`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `uploaded_projects`
 --
 ALTER TABLE `uploaded_projects`
@@ -2913,12 +2913,6 @@ ALTER TABLE `visitors`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
---
--- AUTO_INCREMENT for table `tbl_reviews`
---
-ALTER TABLE `tbl_reviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `uploaded_projects`

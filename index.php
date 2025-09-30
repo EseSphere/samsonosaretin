@@ -198,63 +198,6 @@ $result = mysqli_query($conn, $sql);
 </div> <!-- end of basic-3 -->
 
 
-<?php
-$sql = "SELECT rater_name, rating, comment, submitted_at 
-FROM tbl_reviews ORDER BY submitted_at DESC LIMIT 6";
-$result = $conn->query($sql);
-?>
-
-<div class="cards-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="h2-heading">A few words from people that chose to work with me</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <?php if ($result && $result->num_rows > 0): ?>
-                    <?php while ($row = $result->fetch_assoc()): ?>
-                        <!-- Testimonial Card -->
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <div class="rating mt-1">
-                                    <?php
-                                    $rating = (int)$row['rating'];
-                                    for ($i = 1; $i <= 5; $i++) {
-                                        echo $i <= $rating
-                                            ? '<i class="fas fa-star text-warning"></i>'
-                                            : '<i class="far fa-star text-warning"></i>';
-                                    }
-                                    ?>
-                                </div>
-                                <p class="testimonial-text">“<?= htmlspecialchars($row['comment']) ?>”</p>
-                                <div class="details">
-                                    <div class="testimonial-author fw-bold"><?= htmlspecialchars($row['rater_name']) ?></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end of card -->
-                    <?php endwhile; ?>
-                <?php else: ?>
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="testimonial-text">No reviews found yet. Be the first to leave one!</p>
-                        </div>
-                    </div>
-                <?php endif; ?>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end of testimonials -->
-
-<!-- Include Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
-
-
 <!-- Section Divider -->
 <div class="container">
     <div class="row">
@@ -443,6 +386,7 @@ $result = $conn->query($sql);
     </div>
 </div>
 <!-- End of Contact -->
+
 
 
 <?php include_once('footer_panel.php'); ?>

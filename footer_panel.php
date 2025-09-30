@@ -1,3 +1,54 @@
+<?php
+$sql = "SELECT rater_name, rating, comment, submitted_at 
+FROM tbl_reviews ORDER BY RAND() DESC LIMIT 6";
+$result = $conn->query($sql);
+?>
+
+<div class="cards-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="h2-heading">A few words from people that chose to work with me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <?php if ($result && $result->num_rows > 0): ?>
+                    <?php while ($row = $result->fetch_assoc()): ?>
+                        <!-- Testimonial Card -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="rating mt-1">
+                                    <?php
+                                    $rating = (int)$row['rating'];
+                                    for ($i = 1; $i <= 5; $i++) {
+                                        echo $i <= $rating
+                                            ? '<i class="fas fa-star text-warning"></i>'
+                                            : '<i class="far fa-star text-warning"></i>';
+                                    }
+                                    ?>
+                                </div>
+                                <p class="testimonial-text">“<?= htmlspecialchars($row['comment']) ?>”</p>
+                                <div class="details">
+                                    <div class="testimonial-author fw-bold"><?= htmlspecialchars($row['rater_name']) ?></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+                    <?php endwhile; ?>
+                <?php else: ?>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="testimonial-text">No reviews found yet. Be the first to leave one!</p>
+                        </div>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of testimonials -->
+
 <!-- Footer -->
 <div class="footer bg-dark text-light py-5 mt-5">
     <div class="container mt-2">
