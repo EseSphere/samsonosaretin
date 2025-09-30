@@ -15,7 +15,7 @@ FRAMEWORKS & DEPENDENCIES
 
 
 IMAGES
-All images are included in the download package and can be reused in your projects. The ones mentioned below come for outside resources. The ones not mentioned come from inside resources like created by Inovatik or purchased special license from authors. Either way you can use them for free in your project if you want.
+All images are included in the download package and can be reused in your projects. The ones mentioned below come for outside resources. The ones not mentioned come from inside resources like created by Samson Osaretin or purchased special license from authors. Either way you can use them for free in your project if you want.
 - Header: https://www.pexels.com/photo/man-in-red-crew-neck-long-sleeve-shirt-and-black-denim-jeans-leaning-green-wall-3966215/
 - Details: https://www.pexels.com/photo/photo-of-man-holding-a-book-927022/
 - Testimonials: https://www.pexels.com/photo/photo-of-people-standing-near-blackboard-3184393/

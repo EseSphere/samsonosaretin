@@ -1,6 +1,6 @@
 <!-- Footer -->
-<div class="footer bg-dark text-light py-5">
-    <div class="container">
+<div class="footer bg-dark text-light py-5 mt-5">
+    <div class="container mt-2">
         <div class="row">
             <!-- Social Media Links -->
             <div class="col-lg-4 mb-4 text-left">

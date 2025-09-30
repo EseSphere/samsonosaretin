@@ -33,13 +33,14 @@ $result = mysqli_query($conn, $sql);
                         <div class="text-container">
                             <div class="image-container">
                                 <a href="./view?slug=<?= $row['slug'] ?>">
-                                    <img style="height: 250px; width:100%;" class="img-fluid" src="./admin/<?= htmlspecialchars($row['file_url'] ?: 'images/default-thumbnail.jpg') ?>" alt="<?= htmlspecialchars($row['title']) ?>">
+                                    <img src="./admin/uploads/<?= htmlspecialchars($row['file_url']) ?>" style="height: 200px; width:100%;" class="img-fluid" alt="<?= htmlspecialchars($row['title']) ?>">
                                 </a>
                             </div>
                             <p>
                                 <strong>Project:</strong> <?= htmlspecialchars($row['title']) ?><br>
                                 <?= htmlspecialchars(mb_strimwidth($row['description'], 0, 80, "...")) ?>
-                                <a class="blue" href="./view?slug=<?= $row['slug'] ?>">details</a>
+                                <br>
+                                <a type="button" class="btn btn-sm btn-info block text-decoration-none" href="./view?slug=<?= $row['slug'] ?>">More</a>
                             </p>
                         </div>
                     </div>
