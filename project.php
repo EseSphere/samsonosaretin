@@ -1,7 +1,7 @@
 <?php
 include_once('header_panel.php');
 // Fetch projects
-$sql = "SELECT * FROM uploaded_projects ORDER BY uploaded_at DESC LIMIT 6";
+$sql = "SELECT * FROM uploaded_projects ORDER BY uploaded_at DESC";
 $result = mysqli_query($conn, $sql);
 ?>
 <!-- Header -->
@@ -19,7 +19,7 @@ $result = mysqli_query($conn, $sql);
 <!-- Terms & Conditions Content -->
 <div class="ex-basic-1 pt-5 pb-5">
     <div class="container">
-        <div class="row">
+        <div class="row text-center mb-4">
             <div class="col-lg-12">
                 <h2 class="h2-heading">Delivered projects</h2>
                 <p class="p-heading">Listed below are some of the most representative projects I've worked on. They range from basic web design for presentation sites to advanced web development for online shops</p>
@@ -29,7 +29,7 @@ $result = mysqli_query($conn, $sql);
         <div class="row">
             <?php if (mysqli_num_rows($result) > 0): ?>
                 <?php while ($row = mysqli_fetch_assoc($result)): ?>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mb-5">
                         <div class="text-container">
                             <div class="image-container">
                                 <a href="./view?slug=<?= $row['slug'] ?>">

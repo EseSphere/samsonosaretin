@@ -1,0 +1,24 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('../img/hero-bg.jpg') center/cover no-repeat;
+  height: 100vh;
+}
+
+.typing-text {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #f8f9fa;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  font-size: 0.9rem;
+}

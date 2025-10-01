@@ -10,7 +10,7 @@
     <meta property="og:site" content="https://samsonosaretin.com" />
     <meta property="og:title" content="Samson Gift Osaretin | Full Stack Web Developer" />
     <meta property="og:description" content="Explore the professional portfolio of Samson Gift Osaretin, a seasoned Full Stack Developer skilled in web and mobile technologies." />
-    <meta property="og:image" content="./images/favicon.jpg" />
+    <meta property="og:image" content="./images/bg.png" />
     <meta property="og:url" content="https://samsonosaretin.com" />
     <meta name="twitter:card" content="summary_large_image">
     <title>Samson Gift Osaretin | Full Stack Web Developer</title>
@@ -19,7 +19,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="icon" href="./images/favicon.jpg">
+    <link rel="icon" href="./images/bg.png">
 </head>
 <?php require_once 'db_connect.php'; ?>
 
@@ -43,10 +43,12 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="./index#services">Services</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="./project">Projects</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="./project">Project Details</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item page-scroll" href="./terms">Terms Conditions</a>
                             <div class="dropdown-divider"></div>
