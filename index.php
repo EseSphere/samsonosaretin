@@ -79,7 +79,9 @@ $result = mysqli_query($conn, $sql);
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="h2-heading">What I Offer</h2>
-                <p class="p-heading">With over 6 years of hands-on experience in web and mobile development, I help startups, small businesses, and enterprises build scalable, secure, and user-friendly digital products. Below are the key services I provide:</p>
+                <p class="p-heading">
+                    With over 5 years of commercial experience in backend and full stack development, I help startups, SMEs, and enterprise clients build secure, scalable, and user-friendly web and mobile applications. My focus is on delivering reliable systems, optimising performance, and ensuring GDPR-compliant solutions. Key services I provide include:
+                </p>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
 
