@@ -16,8 +16,6 @@ $result = mysqli_query($conn, $sql);
                 <style>
                     .animated-title-left {
                         text-align: left;
-                        /* align to left */
-                        margin: 50px 0;
                         font-family: 'Roboto Mono', monospace;
                         /* techy font */
                         font-size: 2.5rem;
