@@ -146,7 +146,7 @@ $result = mysqli_query($conn, $sql);
 
 
 <!-- Details Section -->
-<div class="container-fluid">
+<div style="margin-top: -100px;" class="container-fluid">
     <div class="row">
         <div class="col-lg-6">
             <img src="./images/programming.avif" class="w-100 h-100" alt="Programming Illustration">
@@ -154,7 +154,7 @@ $result = mysqli_query($conn, $sql);
 
         <div style="box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;" class="col-lg-6">
             <!-- Text Container -->
-            <div class="text-container mt-3">
+            <div class="text-container mt-3 p-4">
                 <h2>Why Collaborate With Me?</h2>
                 <p>I'm a proactive communicator who takes the time to fully understand client requirements. I believe that clear understanding is key to delivering successful digital solutions that truly solve real-world problems.</p>
 
@@ -176,7 +176,7 @@ $result = mysqli_query($conn, $sql);
 
 
 <!-- Projects -->
-<div id="projects" class="basic-3">
+<div style="margin-top: -100px;" id="projects" class="basic-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
