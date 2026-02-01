@@ -35,9 +35,9 @@ if (isset($_GET['slug'])) {
                 <div class="row">
                     <div class="col-lg-12">
                         <?php if (!empty($row['file_url']) && file_exists($row['file_url'])): ?>
-                            <img class="img-fluid mt-5 mb-3" src="./admin/<?= htmlspecialchars($row['file_url']) ?>" alt="<?= htmlspecialchars($row['title']) ?>">
+                            <img class="img-fluid mt-5 mb-3" src="./admin/uploads/<?= htmlspecialchars($row['file_url']) ?>" alt="<?= htmlspecialchars($row['title']) ?>">
                         <?php else: ?>
-                            <img class="img-fluid mt-5 mb-3" src="./admin/<?= htmlspecialchars($row['file_url']) ?>" alt="<?= htmlspecialchars($row['title']) ?>">
+                            <img class="img-fluid mt-5 mb-3" src="./admin/uploads/<?= htmlspecialchars($row['file_url']) ?>" alt="<?= htmlspecialchars($row['title']) ?>">
                         <?php endif; ?>
                     </div>
                 </div>
