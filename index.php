@@ -9,9 +9,61 @@ $result = mysqli_query($conn, $sql);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <div>
-                    <h1>Full Stack Developer</h1>
+                <div class="animated-title">
+                    <h1 id="dev-title">Full Stack Developer</h1>
                 </div>
+
+                <style>
+                    .animated-title {
+                        text-align: center;
+                        margin: 50px 0;
+                        font-family: 'Roboto Mono', monospace;
+                        /* techy font */
+                        font-size: 2.5rem;
+                        color: #00ffea;
+                        position: relative;
+                    }
+
+                    /* Blinking cursor effect */
+                    .animated-title::after {
+                        content: '|';
+                        animation: blink 0.7s infinite;
+                        position: absolute;
+                        right: 0;
+                    }
+
+                    @keyframes blink {
+
+                        0%,
+                        50%,
+                        100% {
+                            opacity: 1;
+                        }
+
+                        25%,
+                        75% {
+                            opacity: 0;
+                        }
+                    }
+                </style>
+
+                <script>
+                    // Text typing animation
+                    const text = "Full Stack Developer";
+                    const target = document.getElementById("dev-title");
+                    let i = 0;
+
+                    function typeWriter() {
+                        if (i < text.length) {
+                            target.innerHTML += text.charAt(i);
+                            i++;
+                            setTimeout(typeWriter, 120); // typing speed
+                        }
+                    }
+
+                    typeWriter();
+                </script>
+
                 <div class="text-container" data-aos="zoom-in" data-aos-duration="2000">
                     <h2 class="h2-large">Crafting elegant and high performance websites with passion</h2>
                     <a class="btn btn-info btn-lg page-scroll text-decoration-none" href="#about">Learn More</a>
