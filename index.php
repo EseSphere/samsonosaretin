@@ -5,7 +5,7 @@ $result = mysqli_query($conn, $sql);
 ?>
 
 <!-- Header Section -->
-<header id="header" class="header">
+<header id="header" class="header" style="position: relative; overflow: hidden;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -19,7 +19,71 @@ $result = mysqli_query($conn, $sql);
             </div> <!-- end of col -->
         </div> <!-- end of row -->
     </div> <!-- end of container -->
+
+    <!-- Stars container -->
+    <canvas id="starCanvas" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></canvas>
 </header>
+
+<script>
+    const canvas = document.getElementById('starCanvas');
+    const ctx = canvas.getContext('2d');
+    let stars = [];
+
+    function resizeCanvas() {
+        canvas.width = header.offsetWidth;
+        canvas.height = header.offsetHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    // Create a star object
+    class Star {
+        constructor(x, y) {
+            this.x = x;
+            this.y = y;
+            this.size = Math.random() * 3 + 1;
+            this.speedX = (Math.random() - 0.5) * 1.5;
+            this.speedY = (Math.random() - 0.5) * 1.5;
+            this.alpha = 1;
+        }
+
+        update() {
+            this.x += this.speedX;
+            this.y += this.speedY;
+            this.alpha -= 0.01;
+        }
+
+        draw() {
+            ctx.globalAlpha = this.alpha;
+            ctx.fillStyle = "#fff";
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.globalAlpha = 1;
+        }
+    }
+
+    // Add stars on mouse move
+    header.addEventListener('mousemove', (e) => {
+        for (let i = 0; i < 3; i++) {
+            stars.push(new Star(e.clientX - header.getBoundingClientRect().left, e.clientY - header.getBoundingClientRect().top));
+        }
+    });
+
+    function animateStars() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        stars.forEach((star, index) => {
+            star.update();
+            star.draw();
+            if (star.alpha <= 0) {
+                stars.splice(index, 1);
+            }
+        });
+        requestAnimationFrame(animateStars);
+    }
+    animateStars();
+</script>
+
 <!-- End of Header Section -->
 
 
