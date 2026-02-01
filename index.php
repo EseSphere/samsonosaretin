@@ -30,7 +30,7 @@ $result = mysqli_query($conn, $sql);
 
 
 <!-- About-->
-<div id="about" class="basic-1 bg-gray">
+<div style="margin-top: -100px;" id="about" class="basic-1 bg-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -66,7 +66,7 @@ $result = mysqli_query($conn, $sql);
 
 
 <!-- Services -->
-<div style="margin-top: -300px;" id="services" class="basic-2">
+<div id="services" class="basic-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
