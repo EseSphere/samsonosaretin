@@ -38,7 +38,7 @@ $result = mysqli_query($conn, $sql);
                     <h2>Hello, I'm Osaretin Gift Samson</h2>
                     <p>
                         I’m a backend-focused Full Stack Developer based in Walsall, West Midlands, UK, with over 5 years of commercial experience delivering secure, scalable web and mobile applications for healthcare, e‑commerce, and enterprise clients. I specialize in PHP, CodeIgniter, MySQL, AJAX, RESTful APIs, and Linux-based cloud environments (AWS LightSail), with strong frontend skills using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS.
-                        <br>
+                        <hr>
                         I have a proven track record of transforming business requirements into functional digital solutions, improving system performance, and mentoring junior developers. I’m seeking a mid–senior Backend / Full Stack role within a UK-based product or service team.
                     </p>
                 </div>
