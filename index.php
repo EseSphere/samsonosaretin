@@ -31,7 +31,7 @@ $result = mysqli_query($conn, $sql);
 
 <!-- About-->
 <div style="margin-top: -60px;" id="about" class="basic-1 bg-gray">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6">
                 <div class="text-container first">
