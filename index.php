@@ -13,40 +13,6 @@ $result = mysqli_query($conn, $sql);
                     <h1 id="dev-title"></h1>
                 </div>
 
-                <style>
-                    .animated-title-left {
-                        text-align: left;
-                        font-family: 'Roboto Mono', monospace;
-                        font-size: 2.5rem;
-                        color: #00ffea;
-                        position: relative;
-                        padding-left: 0px;
-                        max-width: 600px;
-                    }
-
-                    /* Blinking cursor effect */
-                    .animated-title-left::after {
-                        content: '|';
-                        animation: blink 0.7s infinite;
-                        position: absolute;
-                        right: -10px;
-                    }
-
-                    @keyframes blink {
-
-                        0%,
-                        50%,
-                        100% {
-                            opacity: 1;
-                        }
-
-                        25%,
-                        75% {
-                            opacity: 0;
-                        }
-                    }
-                </style>
-
                 <script>
                     // Text typing animation
                     const text = "Full Stack Developer";
