@@ -30,16 +30,16 @@ $result = mysqli_query($conn, $sql);
 
 
 <!-- About-->
-<div style="margin-top: -100px;" id="about" class="basic-1 bg-gray">
+<div style="margin-top: -60px;" id="about" class="basic-1 bg-gray">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="text-container first">
                     <h2>Hello, I'm Osaretin Gift Samson</h2>
                     <p>I’m a passionate Full Stack Web Developer based in Wolverhampton, UK. With over six years of experience, I specialize in building modern, responsive websites and mobile applications. I enjoy transforming ideas into functional digital solutions, from planning and design to development and deployment.</p>
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="text-container second">
                     <div class="time">2023 - PRESENT</div>
                     <h6>Full Stack Developer</h6>
@@ -49,7 +49,7 @@ $result = mysqli_query($conn, $sql);
                     <p>Built custom web applications for various clients at Ese Sphere Enterprise</p>
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="text-container third">
                     <div class="time">2016 - 2017</div>
                     <h6>Freelance Web Developer</h6>
