@@ -36,9 +36,9 @@ $result = mysqli_query($conn, $sql);
             <div class="col-lg-6">
                 <div class="text-container first">
                     <h2>Hello, I'm Osaretin Gift Samson</h2>
-                    <p>
-                        I’m a passionate Full Stack Web Developer based in Wolverhampton, UK, with over six years of experience building modern, responsive websites and mobile applications. I specialize in backend-focused development, creating secure, scalable web applications for healthcare, e‑commerce, and enterprise clients. I have strong expertise in PHP, CodeIgniter, MySQL, AJAX, RESTful APIs, and Linux-based cloud environments (AWS LightSail), along with solid frontend skills using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS. I enjoy transforming ideas into functional digital solutions, from planning and design to development and deployment, and have a proven track record of working within cross-functional teams to deliver production systems, improve performance, and maintain GDPR-compliant platforms. I’m currently seeking a mid–senior Backend / Full Stack role within a UK-based product or service team.
-                    </p>
+                    <p>I’m a passionate Full Stack Web Developer based in Wolverhampton, UK, with over six years of experience building modern, responsive websites and mobile applications. I enjoy transforming ideas into functional digital solutions, from planning and design to development and deployment.
+
+                        I specialize in backend-focused development, with expertise in PHP, CodeIgniter, MySQL, AJAX, RESTful APIs, and Linux-based cloud environments (AWS LightSail), alongside solid frontend skills using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS. I have a proven track record of delivering secure, scalable applications for healthcare, e‑commerce, and enterprise clients, and I’m seeking a mid–senior Backend / Full Stack role within a UK-based product or service team.</p>
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
             <div class="col-lg-3">
