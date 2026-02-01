@@ -8,7 +8,7 @@ $result = mysqli_query($conn, $sql);
 <header id="header" class="header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <div class="text-container">
                     <h1 class="h1-large">Crafting elegant and high-performance websites with passion</h1>
                     <a class="btn-solid-lg page-scroll" href="#about">Learn More</a>
