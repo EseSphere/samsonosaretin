@@ -17,14 +17,11 @@ $result = mysqli_query($conn, $sql);
                     .animated-title-left {
                         text-align: left;
                         font-family: 'Roboto Mono', monospace;
-                        /* techy font */
                         font-size: 2.5rem;
                         color: #00ffea;
                         position: relative;
-                        padding-left: 20px;
-                        /* slight padding from left edge */
+                        padding-left: 0px;
                         max-width: 600px;
-                        /* keeps text nicely contained */
                     }
 
                     /* Blinking cursor effect */
@@ -33,7 +30,6 @@ $result = mysqli_query($conn, $sql);
                         animation: blink 0.7s infinite;
                         position: absolute;
                         right: -10px;
-                        /* cursor just after text */
                     }
 
                     @keyframes blink {
