@@ -95,7 +95,7 @@ $result = $conn->query($sql);
                 <h5 class="text-uppercase text-light mb-3">Contact Us</h5>
                 <p class="text-light"><a href="mailto:info@yourdomain.com" class="text-light">info@samsonosaretin.com</a></p>
                 <p class="text-light"><a href="tel:+1234567890" class="text-light">+44 0 7448 222483</a></p>
-                <p class="text-light">Wolverhampton, West Midlnads, UK</p>
+                <p class="text-light">Walsall, West Midlnads, UK</p>
             </div>
 
             <!-- Quick Links -->
