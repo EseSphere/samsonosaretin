@@ -9,7 +9,7 @@ $result = mysqli_query($conn, $sql);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <div class="text-container" data-aos="zoom-in">
+                <div class="text-container" data-aos="zoom-in" data-aos-duration="2000">
                     <h1 class="h1-large">Crafting elegant and high-performance websites with passion</h1>
                     <a class="btn btn-info btn-lg page-scroll text-decoration-none" href="#about">Learn More</a>
                     <a class="btn btn-success btn-lg page-scroll text-decoration-none" href="#contact">
