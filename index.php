@@ -10,7 +10,7 @@ $result = mysqli_query($conn, $sql);
         <div class="row">
             <div class="col-lg-8">
                 <div class="animated-title">
-                    <h1 id="dev-title">Full Stack Developer</h1>
+                    <h1 id="dev-title"></h1>
                 </div>
 
                 <style>
