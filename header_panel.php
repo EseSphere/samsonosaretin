@@ -13,7 +13,7 @@
     <meta property="og:image" content="./images/bg.png" />
     <meta property="og:url" content="https://samsonosaretin.com" />
     <meta name="twitter:card" content="summary_large_image">
-    <title>Samson Gift Osaretin | Full Stack Web Developer</title>
+    <title>Osaretin Gift Samson | Full Stack Web Developer</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
-            <a class="navbar-brand logo-image text-decoration-none" href="./">Samson Gift Osaretin</a>
+            <a class="navbar-brand logo-image text-decoration-none" href="./">Osaretin Gift Samson</a>
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
             </button>
