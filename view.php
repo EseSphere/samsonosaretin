@@ -68,7 +68,6 @@ if (isset($_GET['slug'])) {
 
 <?php
 // Close the database connection
-mysqli_close($conn);
 ?>
 
 
