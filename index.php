@@ -114,7 +114,7 @@ $result = mysqli_query($conn, $sql);
             </div>
 
             <!-- Mobile App Development -->
-            <div class="col-lg-4" data-aos-duration="2000">
+            <div class="col-lg-4" data-aos="fade-right" data-aos-duration="2000">
                 <div class="text-box">
                     <i class="fas fa-mobile-alt"></i>
                     <h5>Mobile App Development</h5>
@@ -123,7 +123,7 @@ $result = mysqli_query($conn, $sql);
             </div>
 
             <!-- System Administration -->
-            <div class="col-lg-4" data-aos-duration="2000">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                 <div class="text-box">
                     <i class="fas fa-server"></i>
                     <h5>System Administration</h5>
@@ -132,7 +132,7 @@ $result = mysqli_query($conn, $sql);
             </div>
 
             <!-- Cloud Computing -->
-            <div class="col-lg-4" data-aos-duration="2000">
+            <div class="col-lg-4" data-aos="fade-left" data-aos-duration="2000">
                 <div class="text-box">
                     <i class="fas fa-cloud"></i>
                     <h5>Cloud Computing</h5>
