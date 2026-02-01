@@ -133,7 +133,7 @@ $result = $conn->query($sql);
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-left">
-                <p class="p-small">Copyright © <a class="no-line text-light" href="https://samsonosaretin.com">Samson Gift Osaretin</a> | All rights reserved</p>
+                <p class="p-small">Copyright © <a class="no-line text-light" href="https://samsonosaretin.com">Osaretin Gift Samson</a> | All rights reserved</p>
             </div>
         </div>
     </div>
