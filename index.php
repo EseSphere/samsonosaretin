@@ -13,7 +13,7 @@ $result = mysqli_query($conn, $sql);
                     <h1 class="h1-large">Crafting elegant and high-performance websites with passion</h1>
                     <a class="btn btn-info btn-lg page-scroll text-decoration-none" href="#about">Learn More</a>
                     <a class="btn btn-success btn-lg page-scroll text-decoration-none" href="#contact">
-                        <i class="fas fa-user"></i> Get in Touch
+                        Get in Touch
                     </a>
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
