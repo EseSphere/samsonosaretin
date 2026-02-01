@@ -146,7 +146,7 @@ $result = mysqli_query($conn, $sql);
 
 
 <!-- Details Section -->
-<div style="margin-top: -100px;" class="container-fluid">
+<div style="margin-top: -50px;" class="container-fluid">
     <div class="row">
         <div class="col-lg-6">
             <img src="./images/programming.avif" class="w-100 h-100" alt="Programming Illustration">
@@ -176,7 +176,7 @@ $result = mysqli_query($conn, $sql);
 
 
 <!-- Projects -->
-<div style="margin-top: -100px;" id="projects" class="basic-3">
+<div style="margin-top: -50px;" id="projects" class="basic-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
