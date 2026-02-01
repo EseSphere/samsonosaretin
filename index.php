@@ -19,7 +19,6 @@ $result = mysqli_query($conn, $sql);
             </div> <!-- end of col -->
         </div> <!-- end of row -->
     </div> <!-- end of container -->
-
     <!-- Stars container -->
     <canvas id="starCanvas" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></canvas>
 </header>
