@@ -13,23 +13,6 @@ $result = mysqli_query($conn, $sql);
                     <h1 id="dev-title"></h1>
                 </div>
 
-                <script>
-                    // Text typing animation
-                    const text = "Full Stack Developer";
-                    const target = document.getElementById("dev-title");
-                    let i = 0;
-
-                    function typeWriter() {
-                        if (i < text.length) {
-                            target.innerHTML += text.charAt(i);
-                            i++;
-                            setTimeout(typeWriter, 120); // typing speed
-                        }
-                    }
-
-                    typeWriter();
-                </script>
-
                 <div class="text-container" data-aos="zoom-in" data-aos-duration="2000">
                     <h2 class="h2-large">Crafting elegant and high performance websites with passion</h2>
                     <a class="btn btn-info btn-lg page-scroll text-decoration-none" href="#about">Learn More</a>
@@ -52,14 +35,14 @@ $result = mysqli_query($conn, $sql);
         <div class="row">
             <div class="col-lg-4">
                 <div class="text-container first">
-                    <h2>Hello, I'm Samson Gift Osaretin</h2>
+                    <h2>Hello, I'm Osaretin Gift Samson</h2>
                     <p>I’m a passionate Full Stack Web Developer based in Wolverhampton, UK. With over six years of experience, I specialize in building modern, responsive websites and mobile applications. I enjoy transforming ideas into functional digital solutions, from planning and design to development and deployment.</p>
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
             <div class="col-lg-4">
                 <div class="text-container second">
                     <div class="time">2023 - PRESENT</div>
-                    <h6>Full Stack Web Developer</h6>
+                    <h6>Full Stack Developer</h6>
                     <p>Driving web and app development at Geocare Services Limited</p>
                     <div class="time">2017 - 2023</div>
                     <h6>Full Stack Web Developer</h6>
@@ -412,6 +395,21 @@ $result = mysqli_query($conn, $sql);
 
 
 <script>
+    // Text typing animation
+    const text = "Full Stack Developer";
+    const target = document.getElementById("dev-title");
+    let i = 0;
+
+    function typeWriter() {
+        if (i < text.length) {
+            target.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, 120); // typing speed
+        }
+    }
+
+    typeWriter();
+
     const canvas = document.getElementById('starCanvas');
     const ctx = canvas.getContext('2d');
     let stars = [];
