@@ -36,34 +36,41 @@ $result = mysqli_query($conn, $sql);
             <div class="col-lg-6">
                 <div class="text-container first">
                     <h2>Hello, I'm Osaretin Gift Samson</h2>
-                    <p>I’m a passionate Full Stack Web Developer based in Wolverhampton, UK, with over six years of experience building modern, responsive websites and mobile applications. I enjoy transforming ideas into functional digital solutions, from planning and design to development and deployment.
+                    <p>
+                        I’m a backend-focused Full Stack Developer based in Walsall, West Midlands, UK, with over 5 years of commercial experience delivering secure, scalable web and mobile applications for healthcare, e‑commerce, and enterprise clients. I specialize in PHP, CodeIgniter, MySQL, AJAX, RESTful APIs, and Linux-based cloud environments (AWS LightSail), with strong frontend skills using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS.
+                        <br>
+                        I have a proven track record of transforming business requirements into functional digital solutions, improving system performance, and mentoring junior developers. I’m seeking a mid–senior Backend / Full Stack role within a UK-based product or service team.
+                    </p>
+                </div>
+            </div>
 
-                        I specialize in backend-focused development, with expertise in PHP, CodeIgniter, MySQL, AJAX, RESTful APIs, and Linux-based cloud environments (AWS LightSail), alongside solid frontend skills using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS. I have a proven track record of delivering secure, scalable applications for healthcare, e‑commerce, and enterprise clients, and I’m seeking a mid–senior Backend / Full Stack role within a UK-based product or service team.</p>
-                </div> <!-- end of text-container -->
-            </div> <!-- end of col -->
             <div class="col-lg-3">
                 <div class="text-container second">
-                    <div class="time">2023 - PRESENT</div>
-                    <h6>Full Stack Developer</h6>
-                    <p>Driving web and app development at Geocare Services Limited</p>
-                    <div class="time">2017 - 2023</div>
+                    <div class="time">2022 - Present</div>
+                    <h6>Full Stack Developer (Backend-Focused)</h6>
+                    <p>Developing and maintaining CMS, ERP, and multi-vendor e-commerce platforms at EseSphere Limited. Implementing secure authentication, REST APIs, and GDPR-compliant systems.</p>
+
+                    <div class="time">2019 - 2022</div>
                     <h6>Full Stack Web Developer</h6>
-                    <p>Built custom web applications for various clients at Ese Sphere Enterprise</p>
-                </div> <!-- end of text-container -->
-            </div> <!-- end of col -->
+                    <p>Built backend-driven web applications, dashboards, and reporting tools for COZA Ltd. Managed Linux hosting and optimised system performance.</p>
+                </div>
+            </div>
+
             <div class="col-lg-3">
                 <div class="text-container third">
-                    <div class="time">2016 - 2017</div>
-                    <h6>Freelance Web Developer</h6>
-                    <p>Delivered bespoke websites and solutions for small businesses</p>
-                    <div class="time">2014 - 2016</div>
-                    <h6>IT Intern / Junior Developer</h6>
-                    <p>Gained hands-on experience while studying at ST. Winifred Polytechnic</p>
-                </div> <!-- end of text-container -->
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of basic-1 -->
+                    <div class="time">2018 - 2019</div>
+                    <h6>Web Developer</h6>
+                    <p>Developed custom PHP/MySQL e-commerce and business websites for Bright Ammo, improving API performance and response times.</p>
+
+                    <div class="time">2016 - 2018</div>
+                    <h6>IT Support / Graduate Assistant – Computer Science</h6>
+                    <p>Assisted students in programming, debugging, and system use while supporting lab maintenance at the University of Benin.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of basic-1 -->
 <!-- end of about -->
 
 
