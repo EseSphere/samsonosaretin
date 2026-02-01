@@ -11,8 +11,8 @@ $result = mysqli_query($conn, $sql);
             <div class="col-lg-8">
                 <div class="text-container">
                     <h1 class="h1-large">Crafting elegant and high-performance websites with passion</h1>
-                    <a class="btn btn-info btn-lg page-scroll" href="#about">Learn More</a>
-                    <a class="btn btn-success btn-lg page-scroll" href="#contact">
+                    <a class="btn btn-info btn-lg page-scroll text-decoration-none" href="#about">Learn More</a>
+                    <a class="btn btn-success btn-lg page-scroll text-decoration-none" href="#contact">
                         <i class="fas fa-user"></i> Get in Touch
                     </a>
                 </div> <!-- end of text-container -->
