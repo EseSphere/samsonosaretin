@@ -9,27 +9,33 @@ $result = mysqli_query($conn, $sql);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <div class="animated-title">
+                <div class="animated-title-left">
                     <h1 id="dev-title"></h1>
                 </div>
 
                 <style>
-                    .animated-title {
-                        text-align: center;
-                        margin: 0;
+                    .animated-title-left {
+                        text-align: left;
+                        /* align to left */
+                        margin: 50px 0;
                         font-family: 'Roboto Mono', monospace;
                         /* techy font */
                         font-size: 2.5rem;
                         color: #00ffea;
                         position: relative;
+                        padding-left: 20px;
+                        /* slight padding from left edge */
+                        max-width: 600px;
+                        /* keeps text nicely contained */
                     }
 
                     /* Blinking cursor effect */
-                    .animated-title::after {
+                    .animated-title-left::after {
                         content: '|';
                         animation: blink 0.7s infinite;
                         position: absolute;
-                        right: 0;
+                        right: -10px;
+                        /* cursor just after text */
                     }
 
                     @keyframes blink {
